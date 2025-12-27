@@ -220,25 +220,25 @@ Here are the key pages from the Power BI dashboard included in this project.
 
 ### **Inventory Overview**
 
-![Inventory Overview](screenshots/inventory_overview.png)
+![Inventory Overview](screenshot/inventory_overview.png)
 
 ---
 
 ### **Demand Trends & Forecast**
 
-![Demand Trends](screenshots/demand_trends_forecast.png)
+![Demand Trends](screenshot/demand_trends_forecast.png)
 
 ---
 
 ### **Reorder Planning & Risk**
 
-![Reorder Planning](screenshots/reorder_planning_risk.png)
+![Reorder Planning](screenshot/reorder_planning_risk.png)
 
 ---
 
 ### **SKU Action Table**
 
-![SKU Action Table](screenshots/sku_action_table.png)
+![SKU Action Table](screenshot/sku_action_table.png)
 
 ---
 
