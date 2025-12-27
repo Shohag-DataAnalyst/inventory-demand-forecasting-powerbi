@@ -62,7 +62,6 @@ inventory-demand-forecasting-powerbi/
 │
 ├── sql/
 │   ├── inventory_demand_signals.sql
-│   ├── monthly_demand_views.sql
 │
 ├── powerbi/
 │   └── inventory_demand_dashboard.pbix
