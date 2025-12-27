@@ -172,12 +172,46 @@ AVERAGEX(
 
 ## 🚀 How to Run This Project
 
-1. Clone this repository
-2. Run the SQL scripts to create required views in PostgreSQL
-3. Open the Power BI (.pbix) file
-4. Update database connection settings if needed
-5. Refresh data to load the latest demand calculations
+You can either explore the Power BI dashboard directly or recreate the full SQL → Power BI pipeline.
 
+### ✅ Option 1 – Open the Power BI report only
+
+1. Download inventory_demand_dashboard.pbix from this repository.
+2. Open it using Power BI Desktop.
+3. If the data connection fails:
+  -You can still explore the existing visuals, or
+  -Re-point the data source to your own PostgreSQL database.
+
+---
+
+### ✅ Option 2 – Rebuild the full SQL + Power BI pipeline
+1. **Create a PostgreSQL database:**
+```sql
+CREATE DATABASE inventory_analytics;
+```
+
+2. **Create base tables (or reuse existing ones)**
+
+```sql
+fact_sales
+dim_product
+```
+
+3. **Run the SQL scripts included in the /sql folder to create reporting views:**
+
+```sql
+inventory_demand_signals.sql
+monthly_demand_views.sql
+```
+
+These views:
+- Aggregate monthly demand at SKU level
+- Calculate rolling 3-month average demand
+- Classify demand signals (High / Stable / Low)
+
+4. **Open the Power BI file and connect it to the PostgreSQL views.**
+
+5. **Refresh data to load demand trends, forecasts, and reorder calculations.**
 ---
 
 ## 📸 Dashboard Screenshots
