@@ -176,7 +176,7 @@ You can either explore the Power BI dashboard directly or recreate the full SQL 
 
 ### ✅ Option 1 – Open the Power BI report only
 
-1. Download inventory_demand_dashboard.pbix from this repository.
+1. Download `inventory_demand_dashboard.pbix` from this repository.
 2. Open it using Power BI Desktop.
 3. If the data connection fails:
   -You can still explore the existing visuals, or
