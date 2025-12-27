@@ -200,7 +200,6 @@ dim_product
 
 ```sql
 inventory_demand_signals.sql
-monthly_demand_views.sql
 ```
 
 These views:
