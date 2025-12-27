@@ -216,7 +216,29 @@ These views:
 
 ## 📸 Dashboard Screenshots
 
-Screenshots of the Power BI dashboard are included in the /screenshots folder for quick preview.
+Here are the key pages from the Power BI dashboard included in this project.
+
+### **Inventory Overview**
+
+![Inventory Overview](screenshots/inventory_overview.png)
+
+---
+
+### **Demand Trends & Forecast**
+
+![Demand Trends](screenshots/demand_trends_forecast.png)
+
+---
+
+### **Reorder Planning & Risk**
+
+![Reorder Planning](screenshots/reorder_planning_risk.png)
+
+---
+
+### **SKU Action Table**
+
+![SKU Action Table](screenshots/sku_action_table.png)
 
 ---
 
