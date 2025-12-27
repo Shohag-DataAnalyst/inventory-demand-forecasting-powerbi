@@ -61,7 +61,7 @@ Key modeling steps:
 inventory-demand-forecasting-powerbi/
 │
 ├── sql/
-│   ├── inventory_demand_signals.sql
+│   ├── inventory_demand_views.sql
 │
 ├── powerbi/
 │   └── inventory_demand_dashboard.pbix
@@ -199,7 +199,7 @@ dim_product
 3. **Run the SQL scripts included in the /sql folder to create reporting views:**
 
 ```sql
-inventory_demand_signals.sql
+inventory_demand_views.sql
 ```
 
 These views:
