@@ -12,6 +12,12 @@ End-to-end inventory demand analysis and reorder planning using SQL, Power BI, a
 
 ---
 
+## 🔗 Live Interactive Dashboard
+👉 **View the live Power BI dashboard (no login required):**  
+[Click Here](https://app.powerbi.com/view?r=eyJrIjoiNmE5YjU5YzYtNjRiMy00ZmQyLTlmNjUtMzJhYTYwM2Q5MThhIiwidCI6IjY5MDRhYjJkLTlhZjQtNDNlOS05ODlmLTY1Mzg1NWEyODcyYSIsImMiOjEwfQ%3D%3D)
+
+---
+
 ## 📁 Project Overview
 
 This project focuses on analyzing product-level demand patterns and building an inventory planning system to support data-driven reorder decisions.
